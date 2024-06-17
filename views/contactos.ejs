@@ -7,7 +7,30 @@
 
   <%- include('./partials/header') %>
 
+  <main>
+     <div class="contactos">
+    <form class="form" action="">
+      <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre">
+    
+      <input class="input" type="email" name="email" id="email" placeholder="Gmail">
 
-    <h1>contactos</h1>
+      <input class="input" type="text" name="Asunto" id="Asunto" placeholder="Asunto">
+
+      <select class="select" name="profecion" id="profecion">
+        <option value="Albañileria">Albañileria</option>
+        <option value="Plomeria">Plomeria</option>
+        <option value="Pintura">Pintura</option>
+        <option value="Durlock">Durlock</option>
+        <option value="Gasista">Gasista</option>
+        <option value="Electrisidad">Electrisidad</option>
+      </select>
+      <textarea class="textarea " name="comentario" id="comentario" cols="50" rows="10" >Deja tu comentario</textarea>
+      <button class="button" type="reset">Borrar</button>
+      <button class="button" type="submit">Enviar</button>
+    </form>
+  </div>
+  </main>
+ 
+    <%- include('./partials/footer') %>
 </body>
 </html>

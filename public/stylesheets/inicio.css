@@ -1,5 +1,5 @@
 .home {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -16,6 +16,7 @@
 .home .video {
     width: 100%;
     position: relative;
+    padding: 0;
 }
 
 .home .video video {
@@ -26,15 +27,16 @@
 /* nosotros */
 
 .nosotros {
-
+    width: 90%;
     display: grid;
     grid-template-columns: 50% 50% auto;
-    grid-template-rows: auto 300px auto;
+    grid-template-rows: auto 250px auto;
     margin-bottom: 100px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 15px;
     padding: 30px;
+    margin: 0 auto;
     background-color: var(--colorver);
 }
 
@@ -105,4 +107,173 @@
     background-color: var(--colorTituloHeader);
     border: none;
     padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+   
+    /* banner */
+    .home .video h2 {
+      top: 35%;
+     font-size: 2rem;
+    }
+
+    .carrucel {
+        width: 80%;
+        grid-column: 1 / 4;
+        position: relative;
+        background-color: var(--colorVer2);
+        margin: 0 auto;
+    }
+    .carrucel h2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    
+    .nosotros {
+        align-items: start;
+        gap: 5px;
+       
+    }
+    
+    /* quienes somos */
+    
+    
+    .nosotros .quienesSomos h2 {
+        font-size: 1.5rem;
+    }
+    .nosotros .quienesSomos p {
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+    
+    
+    /* nuestro equipo */
+    
+    .nosotros .nuestroEquipo {
+        text-align: start;
+    }
+    
+    .nosotros .nuestroEquipo h3 {
+        font-size: 1.5rem;
+    }
+    .nosotros .nuestroEquipo p {
+        font-size: 1.2rem;
+    }
+    
+    /* servicios */
+    
+    .servicios h3{
+        font-size: 1.5rem;
+    }
+    
+    .nosotros .servicios ul li {
+        font-size: 1.2rem;
+    
+    }
+    
+    .descripcion {
+        grid-column: 1 / 2;
+        text-align: center;
+    }
+    
+    .carrucel {
+        width: 100%;
+    }
+    
+    .butoon a{
+        font-size: 1rem;
+    }
+ 
+}
+@media screen and (max-width: 767px) {
+  
+    
+    /* banner */
+    .home .video h2 {
+        top: 30%;
+        font-size: 1.2rem;
+        color: #ffff;
+        
+    }
+    
+    /* nosotros */
+    
+    .nosotros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: var(--colorver);
+        padding: 10px;
+    }
+    
+    /* quienes somos */
+    
+    .nosotros .quienesSomos {
+        width: 100%;
+        padding: 10px ;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nosotros .quienesSomos p {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+    
+    
+    /* nuestro equipo */
+    
+    .nosotros .nuestroEquipo {
+       width: 100%;
+        text-align: start;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    
+    .nosotros .nuestroEquipo p {
+        font-size: 1.5rem;
+    }
+    
+    /* servicios */
+    
+    .nosotros .servicios {
+       width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    
+    .nosotros .servicios ul li {
+        list-style-type: disc;
+        margin-left: 10px;
+        text-align: start;
+        font-size: 1.5rem;
+    
+    }
+    
+   
+    
+    .carrucel {
+        width: 100%;
+        grid-column: 1 / -1;
+        position: relative;
+        background-color: var(--colorVer2);
+        padding: 15px 10px;
+        margin: 0 auto;
+    }
+     
+    
+    .butoon {
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        background-color: var(--colorTituloHeader);
+        border: none;
+        padding: 5px;
+    }
+ 
 }
