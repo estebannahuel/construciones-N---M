@@ -1,0 +1,30 @@
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--colornav);
+    padding: 25px;
+}
+.footer--logo{
+    width: 200px;
+}
+.footer--nav{
+ 
+    
+}
+
+.footer--nav--contactos{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.footer--nav--contactos a{
+
+}

@@ -1,0 +1,42 @@
+
+:root{
+    --colorFondo: #838383;
+    --colornav: #d7e1f2;
+    --colorTituloHeader: #cad7ee;
+    --colorver: #e5ebf7;
+    --colorVer2: #f2f5fb;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--colorVer2);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #666869;
+    
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}

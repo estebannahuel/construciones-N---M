@@ -1,0 +1,42 @@
+.header {
+    max-width: 100%;
+
+}
+
+
+.logo {
+    width: 100%;
+    text-align: center;
+    background-color: var(--colorTituloHeader);
+}
+
+.logo img {
+    width: 300px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--colornav);
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+.header nav ul li a {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+
+
+nav ul li a:hover {
+    background-color: var(--colorver);
+}

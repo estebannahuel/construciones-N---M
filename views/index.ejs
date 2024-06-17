@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head') %>
+
+  <body class="container">
+
+    <div class="header">
+
+      <%- include('./partials/header') %>
+    </div>
+
+
+    <main class="home">
+
+      <section class="eslogan">
+        <div class="video">
+          <video src="/videos/banner.mp4" autoplay muted loop></video>
+          <h2>"Confiabilidad y calidad, la base de tu nuevo hogar."</h2>
+        </div>
+      </section>
+
+      <section class="nosotros">
+        <article class="quienesSomos">
+
+          <h2>¿Quiénes Somos?</h2>
+          <p>En Construcciones N & M, somos un equipo apasionado por transformar espacios y materializar los sueños de
+            nuestros clientes. Fundado en 2023, nuestro emprendimiento se dedica a ofrecer soluciones creativas y de
+            alta calidad en el ámbito de la construcción.</p>
+
+        </article>
+
+        <article class="nuestroEquipo">
+          <h3>Nuestro equipo</h3>
+          <p>Contamos con profesionales altamente capacitados en diversas áreas de la construcción,
+            todos comprometidos con la excelencia y la satisfacción del cliente.</p>
+        </article>
+        <article class="servicios">
+          <h3>Servicios</h3>
+          <ul>
+            <li>Construcción de viviendas</li>
+            <li>Renovaciones y remodelaciones</li>
+            <li>Consultoría y gestión de proyectos</li>
+          </ul>
+
+        </article>
+
+        <article class="carrucel">
+          
+             <%- include('./partials/currucel') %>
+          <button class="butoon"><a href="/obraRealizadas">ver más</a></button>
+        </article>
+
+      </section>
+
+     
+    </main>
+
+    <div class="footer">
+      
+      <%- include('./partials/footer') %>
+ 
+    </div>
+  </body>
+
+</html>
