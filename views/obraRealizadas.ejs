@@ -7,7 +7,24 @@
 
   <%- include('./partials/header') %>
 
+  <main class="obras">
+   
+    <section class="galeria">
+       <h2>Obras Realizadas</h2>
+   <article class="obra">
+      <% obras.forEach(obra => { %>
+         <%- include('./partials/obras',{
+          obra
+         }) %>
+        <% }) %>
+   </article>
+      
+     
+    </section>
+    
+  </main>
 
-    <h1>Obras</h1>
+  <%- include('./partials/footer') %>
+   
 </body>
 </html>

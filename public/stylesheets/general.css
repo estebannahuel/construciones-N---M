@@ -1,10 +1,18 @@
 
+/*  
+font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
+ */
+
+
 :root{
     --colorFondo: #838383;
     --colornav: #d7e1f2;
     --colorTituloHeader: #cad7ee;
     --colorver: #e5ebf7;
     --colorVer2: #f2f5fb;
+    --tipografiaBotonesYTitulos: "Roboto", sans-serif;
+    --tipografiaGeneral: "Raleway", sans-serif;
 }
 
 
@@ -17,10 +25,13 @@
 
 body{
     background-color: var(--colorVer2);
+    font-family: var(--tipografiaGeneral);
 }
 
 li{
     list-style-type: none;
+    font-family: var(--tipografiaBotonesYTitulos);
+    font-weight: 700;
 }
 
 a{
@@ -32,6 +43,8 @@ a{
 }
 
 h2{
+    font-family: var(--tipografiaBotonesYTitulos);
+    font-weight: 400;
     font-size: 3rem;
     margin-bottom: 30px;
 }

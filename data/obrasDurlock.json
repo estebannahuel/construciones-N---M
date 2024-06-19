@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "titulo": "Finca del Alba",
+        "descripcion": [
+            "Trabajo de cielo razo con massillado completo",
+            "Paredes masilladas con 3 manos",
+            "Comensado en Septiembre del 2023",
+            "Terminado en junio del 2024"
+        ],
+        "imagen": "durlock1.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "mueble",
+        "descripcion": "chimenea echo en finca del alva",
+        "imagen": "chimenea5.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "mueble",
+        "descripcion": "chimenea echo en finca del alva",
+        "imagen": "chimenea4.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "mueble",
+        "descripcion": "chimenea echo en finca del alva",
+        "imagen": "chimenea4.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "mueble",
+        "descripcion": "chimenea echo en finca del alva",
+        "imagen": "chimenea5.jpg"
+    }
+]
