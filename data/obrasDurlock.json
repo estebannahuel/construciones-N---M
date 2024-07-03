@@ -8,30 +8,33 @@
             "Comensado en Septiembre del 2023",
             "Terminado en junio del 2024"
         ],
-        "imagen": "durlock1.jpg"
+        "imagen": "durlock1.jpg",
+        "button" : "https://www.facebook.com/photo/?fbid=696235605946335&set=a.696236719279557"
     },
     {
         "id": 2,
-        "titulo": "mueble",
-        "descripcion": "chimenea echo en finca del alva",
-        "imagen": "chimenea5.jpg"
+        "titulo": "Local en easy canning",
+        "descripcion": ["Trabajo de cielo razo, tabique divisorio cocina, revestimiento de paredes y pintado",
+                        "Comensado en Julio del 2023",
+                        "Terminado en Agosto del 2023"],
+        "imagen": "durlock2.jpg",
+         "button" : "https://www.facebook.com/photo/?fbid=696229025946993&set=a.696231242613438"
     },
     {
         "id": 3,
-        "titulo": "mueble",
-        "descripcion": "chimenea echo en finca del alva",
-        "imagen": "chimenea4.jpg"
+        "titulo": "Casa particular",
+        "descripcion": ["Trabajo de mueble de Durlock y Pintura en paredes pisos y puertas",
+                        "Comensado en Abril del 2022 fue una semana de Trabajo"],
+        "imagen": "durlock3.jpg",
+        "button" : "https://www.facebook.com/photo/?fbid=320820260137420&set=a.320820836804029"
+
     },
     {
         "id": 4,
-        "titulo": "mueble",
-        "descripcion": "chimenea echo en finca del alva",
-        "imagen": "chimenea4.jpg"
-    },
-    {
-        "id": 5,
-        "titulo": "mueble",
-        "descripcion": "chimenea echo en finca del alva",
-        "imagen": "chimenea5.jpg"
+        "titulo": "Casa particular",
+        "descripcion": ["Trabajo Pintura en paredes y puertas. colocacion de ventana, colocacion de mueble bacha y colocacion de ceramicas ",
+                        "Comensado en mayo del 2022 fue dos semana de Trabajo"],
+        "imagen": "durlock4.jpg",
+        "button" : "https://www.facebook.com/photo/?fbid=321394566746656&set=a.321394940079952"
     }
 ]

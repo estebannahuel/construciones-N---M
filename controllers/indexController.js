@@ -14,7 +14,5 @@ module.exports = {
         })
     },
     
-    contactos: (req,res) => {
-        return res.render('contactos')
-    }
+ 
 }

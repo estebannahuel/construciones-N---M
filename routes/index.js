@@ -6,5 +6,4 @@ var router = express.Router();
 router.get('/', index);
 router.get('/servicios', servicios);
 router.get('/obraRealizadas', obrasRealizadas);
-router.get('/contactos' , contactos)
 module.exports = router;

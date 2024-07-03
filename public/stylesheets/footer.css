@@ -1,51 +1,52 @@
-.footer{
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ .figure {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+ .footer img {
+    width: 100%;
+}
+
+ .nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-footer ul{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-    position: static;
-    bottom: 0;
-    background-color: var(--colornav);
-    padding: 25px;
-}
-.footer--logo{
-    width: 200px;
-}
-
-.footer--nav--contactos{
-   display: flex;
-   justify-content: center;
-   gap: 20px;
-}
-
-@media screen and (max-width: 1023px) {    
-
-.footer{
-    flex-direction: column;
-}
-
-.footer--nav--contactos li a{
-    font-size: 1.2rem;
- }
- 
-
-}
-@media screen and (max-width: 767px) {    
-
-.footer{
-    flex-direction: column;
-}
-
-
-.footer--nav--contactos{
     flex-direction: column;
     align-items: center;
- }
- 
-.footer--nav--contactos li a{
-    font-size: 1rem;
- }
- 
+    gap: 10px;
+}
 
+.redes,
+.contactos{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px ;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+
+.derechos{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px ;
+    line-height: 24px;
 }

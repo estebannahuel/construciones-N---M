@@ -1,18 +1,55 @@
 
-.galeria h2{
-  text-align: center;
-  margin: 100px 0;
+
+.obras{
+    width: 100%; 
+   margin: 0 auto;
 }
 
-.obra{
+.galeria{
+    width: 100%; 
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: space-around;
-    border-radius: 10px;
-    transition: all 1.5s ease-in-out;
+    gap: 15px;
+   
 }
 
+.item{
+    width: 400px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+
+.item .descripcion{
+    padding: 10px 0;
+}
+
+.item .descripcion h2{
+    text-align: start;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.item figure img{
+    width: 100%;
+    height: 300px;
+}
+
+.galeria h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.item .vermas{
+    margin-top: 15px;
+    padding: 10px ;
+    border: none;
+    background-color: var(--colorver);
+}
 
 
 

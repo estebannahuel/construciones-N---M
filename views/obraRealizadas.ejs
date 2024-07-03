@@ -3,28 +3,38 @@
 
 <%- include('./partials/head') %>
 
-<body>
+  <body>
 
-  <%- include('./partials/header') %>
+    <%- include('./partials/header') %>
 
-  <main class="obras">
-   
-    <section class="galeria">
-       <h2>Obras Realizadas</h2>
-   <article class="obra">
-      <% obras.forEach(obra => { %>
-         <%- include('./partials/obras',{
-          obra
-         }) %>
-        <% }) %>
-   </article>
-      
-     
-    </section>
-    
-  </main>
+      <main class="obras">
 
-  <%- include('./partials/footer') %>
-   
-</body>
+        <section class="galeria">
+          
+          <h2>Obras Realizadas</h2>
+
+          <% obras.forEach(obra=> { %>
+            <article class="item">
+              <figure>
+                <img src="/images/durlock/<%- obra.imagen %>" alt="">
+              </figure>
+              <div class="descripcion">
+                <h2><%- obra.titulo %></h2>
+                <p><%-obra.descripcion %></p>
+              </div>
+
+              <button class="vermas"><a target="_blank" href="<%- obra.button %>">VER MÁS</a></button>
+            </article>
+            <% }) %>
+
+
+
+        </section>
+
+      </main>
+
+      <%- include('./partials/footer') %>
+
+  </body>
+
 </html>
