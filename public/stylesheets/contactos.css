@@ -69,3 +69,22 @@
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .contactos-home{
+        width: 100%;
+        padding: 90px;
+        background-color: rgba(255, 255, 255, .5);
+    }
+ 
+    .form .select{
+        width: 45%;
+    }
+    .form label{
+        width: 50%;
+    }
+.textarea{
+padding: 10px;
+}
+}

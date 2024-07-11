@@ -46,3 +46,21 @@ h3{
 }
 
 
+.phone
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 55px;
+    background-color: rgb(36, 241, 36);
+   
+    padding: 8px 15px;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+    
+}
+.phone a {
+    color: white;
+}
+    

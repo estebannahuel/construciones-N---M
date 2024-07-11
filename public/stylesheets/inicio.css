@@ -90,3 +90,119 @@
     background-color: rgba(255, 255, 255, .5);
 }
 
+@media screen and (min-width: 768px) {
+  
+
+}
+@media screen and (min-width: 1024px) {
+    .home {
+        width: 100%;
+    }
+    
+    /* BANNER */
+    
+    .video {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .eslogan h2 {
+      text-transform: uppercase;
+        font-size: 2.2rem;
+        font-weight: 500;
+      
+    }
+    
+    /* NOSOTROS  */
+    
+    .nosotros{
+        background-image: url('/images/nosotros.jpg');
+        background-size: cover;
+        padding: 20px 0;
+    }
+    
+    
+    .quienesSomos{
+        width: auto;
+        margin: 20px ;
+padding: 40px 0 ; 
+        background-color: rgba(255, 255, 255, .5);
+        border-radius: 10px;
+    }
+    
+    .quienesSomos h2{
+    font-size: 35px;
+    
+    }
+    
+    .quienesSomos p{
+   line-height: 30px;
+   font-size: 25px;
+      text-align: center;
+      width: 70%;
+      margin: 0 auto;
+      color: #252424;
+    }
+    .nuestroEquipo{
+        width: auto;
+        margin: 20px ;
+padding: 40px 0 ; 
+border-radius: 10px;
+    }
+    .nuestroEquipo h2{
+        font-size: 35px;
+       text-align: center;
+        margin  : 30px;
+       
+    }
+    
+    .nuestroEquipo p{
+        line-height: 30px;
+        font-size: 25px;
+           text-align: center;
+           width: 70%;
+           margin: 0 auto;
+           color: #252424;
+    }
+    .servicios h3{
+        text-align:center;
+          font-size: 35px;
+    }
+
+    .servicios{
+        width: auto !important;
+        margin: 20px ;
+padding: 40px 0 !important; 
+        font-weight: 400;
+        background-color: rgba(255, 255, 255, .5);
+        border-radius: 10px;
+    }
+    
+    .servicios li{
+        font-weight: 700;
+    text-align: center;
+    list-style: none;
+        margin:0;
+        padding:10px;
+        font-size:25px
+    }
+    
+    
+    /* nuestras obras */
+    
+    .carrucel .title{
+       font-size: 35px;
+       
+    }
+    .carrucel h2{
+        text-align: center;
+        padding: 15px 0 5px;
+       
+    }
+    
+    .carrucel{
+        padding-bottom: 30px;
+        background-color: rgba(255, 255, 255, .5);
+    }
+    
+}
