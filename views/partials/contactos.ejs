@@ -1,13 +1,14 @@
 
      <div class="contactos-home">
-    <form class="form" action="">
+    <form class="form" action="https://formsubmit.co/webdesignsolutions24@gmail.com" method="POST">
+
       <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre">
     
       <input class="input" type="email" name="email" id="email" placeholder="Gmail">
 
       <input class="input" type="text" name="telefono" id="telefono" placeholder="Telefono">
 
-      <label for="profecion">Selecciona una Categoria</label>
+      
       <select class="select" name="profecion" id="profecion">
         <option value="Albañileria">Albañileria</option>
         <option value="Plomeria">Plomeria</option>
@@ -17,8 +18,14 @@
         <option value="Electrisidad">Electrisidad</option>
       </select>
       <textarea class="textarea " name="comentario" id="comentario"  cols="50" rows="10" placeholder="Escribe aqui"></textarea>
+
       <button class="button" type="reset">Borrar</button>
+
       <button class="button" type="submit">Enviar</button>
+
+      <input type="hidden" name="_next" value="http://localhost:3000/">
+      <input type="hidden" name="_captcha" value="false">
+
     </form>
   </div>
 
