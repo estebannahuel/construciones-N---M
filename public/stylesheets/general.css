@@ -23,9 +23,11 @@ font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body, html{
     background-color: var(--colornav);
     font-family: var(--tipografiaGeneral);
+    width: 100vw;
+    overflow-x: hidden !important;
 }
 
 li{
